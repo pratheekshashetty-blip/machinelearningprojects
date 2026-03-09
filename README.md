@@ -42,6 +42,16 @@ GTZAN Music Dataset
 
 ---
 
+### Loan Approval Prediction
+Predicting if the loan will be approved based on certain criteria
+Models used:
+- Linear Regression
+- Decision Forest
+- Random Forest
+
+  Dataset: Loan Approval Prediction
+
+
 ### Student Score Prediction
 Predict student exam scores based on academic and lifestyle factors.
 
