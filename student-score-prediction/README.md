@@ -3,7 +3,7 @@
 Machine learning model that predicts student exam scores based on study habits and academic-related factors.
 
 ## Project Overview
-Demo: https://drive.google.com/file/d/1tymyL-q9pNNqe8VFat6W5CR4fcL7SpaH/view?usp=sharing
+Demo:
 
 This project applies machine learning regression techniques to predict student exam scores based on factors such as study time, attendance, and other academic attributes.
 
