@@ -1,105 +1,75 @@
-# Machine Learning Projects
+# Machine Learning Projects – Elevvo Pathway Internship
 
-This repository contains a collection of machine learning projects implemented using Python and scikit-learn.  
-The goal of these projects is to practice complete machine learning workflows including data analysis, feature engineering, model training, and evaluation.
-
----
+This repository contains 4 machine learning projects covering regression,
+classification and clustering.
 
 ## Projects
 
-### Forest Cover Type Classification
-Predict the type of forest cover based on cartographic variables such as elevation, slope, and soil type.
+### 1. Student Score Prediction
+Goal: Predict exam scores based on study hours.
 
-Models used:
-- Random Forest
-- XGBoost
-
-Techniques:
-- Exploratory Data Analysis
-- Correlation heatmaps
-- Confusion matrix evaluation
-
-Dataset:
-Covertype Dataset (UCI / Kaggle)
-
----
-
-### Music Genre Classification
-Classify music into genres using extracted audio features.
-
-Models used:
-- Logistic Regression
-- Random Forest
-- Support Vector Machine
-
-Techniques:
-- Feature scaling
-- Label encoding
-- Model comparison
-
-Dataset:
-GTZAN Music Dataset
-
----
-
-### Loan Approval Prediction
-Predicting if the loan will be approved based on certain criteria
-Models used:
-- Linear Regression
-- Decision Forest
-- Random Forest
-
-  Dataset: Loan Approval Prediction
-
-
-### Student Score Prediction
-Predict student exam scores based on academic and lifestyle factors.
-
-Models used:
+Models:
 - Linear Regression
 - Ridge Regression
 - Lasso Regression
 - Polynomial Regression
 
-Evaluation Metrics:
-- MAE
-- MSE
-- RMSE
+Evaluation:
 - R² Score
+- Mean Squared Error
 
-Dataset:
-Student Performance Factors (Kaggle)
+Results:
+Polynomial Regression performed best with R² = X.
 
 ---
 
-### Mall Customer Segmentation
-Segment customers into groups based on spending behaviour.
+### 2. Mall Customer Segmentation
+Goal: Segment customers based on income and spending.
 
-Model used:
+Method:
 - K-Means Clustering
+- Elbow Method to choose optimal K
 
-Techniques:
-- Elbow method
-- Cluster visualization
-
-Dataset:
-Mall Customers Dataset
+Result:
+Identified 5 customer segments.
 
 ---
 
-## Tools and Libraries
+### 3. Forest Cover Classification
+Goal: Predict forest cover type.
 
-Python  
-Pandas  
-NumPy  
-Matplotlib  
-Seaborn  
-Scikit-learn  
-XGBoost  
+Models:
+- Random Forest
+- XGBoost
+
+Evaluation:
+- Accuracy
+- Confusion Matrix
 
 ---
 
-## Author
+### 4. Music Genre Classification
+Goal: Predict music genre from audio features.
 
-Pratheeksha Shetty  
-Physics Graduate | Master's in Geoinformatics  
+Models:
+- Logistic Regression
+- Random Forest
+- SVM
+
+Best Model: Random Forest with accuracy X%
+
+### 5. Loan Prediction
+
+Goal: Predict whether a loan will be approved based on applicant information.
+
+Models Used:
+- Logistic Regression
+- Decision Tree
+- Random Forest
+
+Evaluation:
+- Accuracy
+- Confusion Matrix
+
+Result:
+Random Forest achieved the best performance with accuracy of X%.
