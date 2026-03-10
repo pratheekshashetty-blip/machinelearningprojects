@@ -1,59 +1,72 @@
-Customer Segmentation using K-Means Clustering and DBSCAN to identify groups of customers based on income and spending patterns.
+# Customer Segmentation
 
-Project Overview
+Machine learning project that groups customers into segments based on income and spending behavior using clustering algorithms.
+
+## Project Overview
 
 This project performs customer segmentation using machine learning techniques to group customers based on similar purchasing behavior.
+
 Customer segmentation helps businesses understand different types of customers and design targeted marketing strategies.
+
 The project applies unsupervised learning algorithms to identify patterns in customer data and visualize customer groups.
 
-Dataset
+## Dataset
 
 The dataset contains information about customers such as:
 
-Customer ID
-Age
-Annual Income
-Spending Score
+- Customer ID  
+- Age  
+- Annual Income  
+- Spending Score  
 
 These features are used to analyze purchasing behavior and cluster customers into meaningful segments.
 
-Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib / Seaborn
-Scikit-learn
+## Tools and Libraries
 
-Methodology
+- python  
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+- scikit-learn  
 
-Data Loading and Exploration
-Understanding dataset structure
-Checking missing values
-Data Preprocessing
-Feature selection
-Feature scaling using StandardScaler
-Model Training
-K-Means clustering algorithm
-Finding Optimal Clusters
-Elbow Method
-Visualization
-Scatter plots to visualize customer groups
+## Machine Learning Workflow
 
-Results
+### Data Exploration
+- inspect dataset structure  
+- check for missing values  
+- understand feature distributions  
 
-The model successfully groups customers into distinct clusters based on spending behavior and income levels, helping businesses identify:
+### Data Preprocessing
+- select relevant features  
+- apply feature scaling using StandardScaler  
 
-High value customers
-Budget customers
-Potential growth customers
+### Model Training
+- k-means clustering  
+- DBSCAN clustering  
 
+### Finding Optimal Clusters
+- elbow method for k-means  
 
-Key Insights
+### Visualization
+- scatter plots to visualize customer clusters  
 
-Customers with high income but low spending can be targeted with marketing campaigns.
-Customers with low income but high spending represent loyal buyers.
+## Results
 
-Future Improvements
+The model groups customers into distinct clusters based on spending behavior and income levels.
 
-Use more behavioral features
-Build interactive dashboards
+Customer groups identified include:
+
+- high value customers  
+- budget customers  
+- potential growth customers  
+
+## Key Insights
+
+- customers with high income but low spending can be targeted with marketing campaigns  
+- customers with low income but high spending represent loyal buyers  
+
+## Future Improvements
+
+- include more behavioral features  
+- build interactive dashboards for business insights
