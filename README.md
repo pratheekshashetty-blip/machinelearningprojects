@@ -1,6 +1,6 @@
 # Machine Learning Projects – Elevvo Pathway Internship
 
-This repository contains 4 machine learning projects covering regression,
+This repository contains 5 machine learning projects covering regression,
 classification and clustering.
 
 ## Projects
