@@ -1,4 +1,5 @@
 Student Score Prediction
+
 Machine learning model that predicts student exam scores based on study habits and academic-related factors.
 
 Project Overview
