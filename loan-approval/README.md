@@ -1,8 +1,9 @@
-#Loan Approval Prediction
+Loan Approval Prediction
 
 Machine learning model that predicts whether a loan application will be approved based on applicant financial and demographic features.
 
 Project Overview
+
 This project builds a machine learning classification model to predict loan approval decisions based on applicant information.
 Financial institutions process large numbers of loan applications and must assess the risk associated with each applicant. By analyzing historical loan data, machine learning models can identify patterns that help determine whether a loan is likely to be approved.
 The goal of this project is to train models that classify applications as approved or rejected.
