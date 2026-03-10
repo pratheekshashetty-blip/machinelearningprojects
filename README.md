@@ -52,7 +52,7 @@ Evaluation:
 
 Result:
 Random Forest Gave us an accuracy of 0.95
-
+---
 
 ### 4. Music Genre Classification
 Goal: Predict music genre from audio features.
@@ -64,7 +64,7 @@ Models:
 
 Result:
 Best Model is Support Vector Matrix with accuracy of 0.9134
-
+---
 ### 5. Loan Prediction
 
 Goal: Predict whether a loan will be approved based on applicant information.
@@ -80,3 +80,4 @@ Evaluation:
 
 Result:
 Random Forest achieved the best performance with accuracy of 0.974.
+---
