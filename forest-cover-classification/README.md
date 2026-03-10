@@ -16,7 +16,7 @@ The project uses the Forest CoverType dataset collected from the Roosevelt Natio
 
 The dataset is not included in this repository due to size.
 
-Run data_download.ipynb` to download it directly from Kaggle.
+Run data_download.ipynb to download it directly from Kaggle.
 
 Target variable:
 
