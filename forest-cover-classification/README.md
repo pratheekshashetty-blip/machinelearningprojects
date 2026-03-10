@@ -14,6 +14,10 @@ Such classification can support ecological monitoring, forest management, and la
 
 The project uses the Forest CoverType dataset collected from the Roosevelt National Forest in Colorado.
 
+The dataset is not included in this repository due to size.
+
+Run data_download.ipynb` to download it directly from Kaggle.
+
 Target variable:
 
 Cover_Type (1–7) representing different forest species.
