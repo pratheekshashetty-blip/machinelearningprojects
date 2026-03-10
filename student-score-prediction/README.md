@@ -1,53 +1,58 @@
-Student Score Prediction
+# Student Score Prediction
 
 Machine learning model that predicts student exam scores based on study habits and academic-related factors.
 
-Project Overview
+## Project Overview
 
 This project applies machine learning regression techniques to predict student exam scores based on factors such as study time, attendance, and other academic attributes.
+
 Educational institutions can use such models to better understand the factors that influence student performance and identify students who may require additional support.
+
 The goal is to train a model that accurately predicts exam scores based on input features.
 
-Dataset
+## Dataset
+
 The dataset contains information about students and their academic behavior.
 
 Typical features include:
 
-- Study Hours
-- Attendance
-- Previous Scores
-- Assignments Completed
-- Sleep Hours
+- study hours  
+- attendance  
+- previous scores  
+- assignments completed  
+- sleep hours  
 
 Target variable:
-Exam_Score – numerical value representing the student's final exam performance.
 
-Technologies Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib / Seaborn
-- Scikit-learn
+exam_score — numerical value representing the student's final exam performance.
 
-Machine Learning Workflow
-1. Data Exploration
-Understand dataset structure
-Analyze feature distributions
-Check for missing values
+## Tools and Libraries
 
-2. Data Preprocessing
-Handle missing values
-Feature scaling using StandardScaler (for regression models)
+- python  
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+- scikit-learn  
 
-3. Model Training
-Regression models used:
-Linear Regression
-Ridge Regression
-Lasso Regression
+## Machine Learning Workflow
 
-4. Model Evaluation
-Model performance is evaluated using:
-Mean Absolute Error (MAE)
-Mean Squared Error (MSE)
-Root Mean Squared Error (RMSE)
-R² Score
+### Data Exploration
+- inspect dataset structure  
+- analyze feature distributions  
+- check for missing values  
+
+### Data Preprocessing
+- handle missing values  
+- apply feature scaling using StandardScaler  
+
+### Model Training
+- linear regression  
+- ridge regression  
+- lasso regression  
+
+### Model Evaluation
+- mean absolute error (MAE)  
+- mean squared error (MSE)  
+- root mean squared error (RMSE)  
+- r² score
