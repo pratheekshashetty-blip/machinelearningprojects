@@ -1,61 +1,64 @@
-Loan Approval Prediction
+# Loan Approval Prediction
 
 Machine learning model that predicts whether a loan application will be approved based on applicant financial and demographic features.
 
-Project Overview
+## Project Overview
 
 This project builds a machine learning classification model to predict loan approval decisions based on applicant information.
+
 Financial institutions process large numbers of loan applications and must assess the risk associated with each applicant. By analyzing historical loan data, machine learning models can identify patterns that help determine whether a loan is likely to be approved.
+
 The goal of this project is to train models that classify applications as approved or rejected.
 
-Dataset
+## Dataset
 
 The dataset contains information about loan applicants including financial, employment, and demographic attributes.
 
 Key features include:
-- Gender
-- Marital Status
-- Education
-- Applicant Income
-- Co-applicant Income
-- Loan Amount
-- Loan Term
-- Credit History
-- Property Area
+
+- gender  
+- marital status  
+- education  
+- applicant income  
+- co-applicant income  
+- loan amount  
+- loan term  
+- credit history  
+- property area  
 
 Target variable:
-Loan_Status
 
-1 → Loan Approved
+loan_status  
 
-0 → Loan Not Approved
+1 → loan approved  
+0 → loan not approved  
 
-Technologies Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+## Tools and Libraries
 
-Machine Learning Workflow
-1. Data Exploration
-Inspect dataset structure
-Check for missing values
-Analyze feature distributions
+- python  
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+- scikit-learn  
 
-2. Data Preprocessing
-Handle missing values
-Encode categorical variables
-Feature scaling where required
+## Machine Learning Workflow
 
-3. Model Training
-Models used include:
-Logistic Regression
-Random Forest Classifier
+### Data Exploration
+- inspect dataset structure  
+- check for missing values  
+- analyze feature distributions  
 
-4. Model Evaluation
-Model performance is evaluated using:
-Accuracy Score
-Confusion Matrix
-Classification Report
+### Data Preprocessing
+- handle missing values  
+- encode categorical variables  
+- apply feature scaling when required  
+
+### Model Training
+- logistic regression  
+- random forest classifier  
+
+### Model Evaluation
+- accuracy score  
+- confusion matrix  
+- classification report
