@@ -51,8 +51,8 @@ Evaluation:
 - Feature Importance
 
 Result:
-Random Forest gave an accuracy of 0.95
----
+Random Forest Gave us an accuracy of 0.95
+
 
 ### 4. Music Genre Classification
 Goal: Predict music genre from audio features.
@@ -62,6 +62,7 @@ Models:
 - Random Forest
 - SVM
 
+Result:
 Best Model is Support Vector Matrix with accuracy of 0.9134
 
 ### 5. Loan Prediction
