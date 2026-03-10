@@ -19,19 +19,21 @@ Evaluation:
 - Mean Squared Error
 
 Results:
-Polynomial Regression performed best with R² = X.
+Polynomial Regression performed best with R² = 0.769.
 
 ---
 
-### 2. Mall Customer Segmentation
-Goal: Segment customers based on income and spending.
+## Mall Customer Segmentation
 
-Method:
-- K-Means Clustering
-- Elbow Method to choose optimal K
+Goal: Segment mall customers based on income and spending behavior.
+
+Methods:
+- K-Means clustering
+- Elbow Method for selecting optimal number of clusters
+- DBSCAN clustering for density-based segmentation
 
 Result:
-Identified 5 customer segments.
+K-Means identified 5 distinct customer segments representing different spending patterns.
 
 ---
 
@@ -45,7 +47,11 @@ Models:
 Evaluation:
 - Accuracy
 - Confusion Matrix
+- Correlation Heatmap
+- Feature Importance
 
+Result:
+Random Forest gave an accuracy of 0.95
 ---
 
 ### 4. Music Genre Classification
@@ -56,7 +62,7 @@ Models:
 - Random Forest
 - SVM
 
-Best Model: Random Forest with accuracy X%
+Best Model is Support Vector Matrix with accuracy of 0.9134
 
 ### 5. Loan Prediction
 
@@ -72,4 +78,4 @@ Evaluation:
 - Confusion Matrix
 
 Result:
-Random Forest achieved the best performance with accuracy of X%.
+Random Forest achieved the best performance with accuracy of 0.974.
